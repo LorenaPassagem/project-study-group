@@ -1,0 +1,345 @@
+/* alterações na header*/
+ header {
+  background: #000000;
+  color: #FFFFFF;
+  height: 100px;
+  width: 1320px;
+  margin: -15px 0px 0px -5px;
+}
+
+/*alterações no logo*/
+#logo{
+  padding-top: 10px;
+}
+
+/* alterçaões no menu */
+nav#menu {
+}
+
+nav#menu ul{
+  list-style: none;
+  position: absolute;
+  top: 0px;
+  left: 850px;
+  padding: 5px;
+}
+
+nav#menu li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*================================================*/
+/*alteração no bem-vindo */
+#bemvindo { /*faz a img de background ficar colorida*/
+  background: linear-gradient(rgb(248, 55, 55, 0.9), rgb(248, 55, 108, 0.9)),
+   url("images/slider.png") no-repeat; transform: (0.8%);
+  margin: -2px 0px 0px -5px;
+  padding: 5px;
+  height: 300px;
+  width: 1310px;
+  }
+
+/*alteração no img borboleta */
+#bemvindo img {
+  height: 20%;
+  width: 20%;
+  float: right;
+  margin: 10px 0px 0px -5px;
+}
+
+#bemvindo h4 {
+  text-align: justify;
+  font-size: 17px;
+  color: #000000;
+  padding-bottom: 50px;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+#bemvindo h3, h2 {
+  margin-left: 100px;
+  margin-bottom: -20px;
+}
+
+/*================================================*\
+      /*alteração no serviços */
+#servicos {
+  background-color: #000000;
+  width: 1310px;
+  height: 700px;
+  color: #FFFFFF;
+  margin-top:-20px;
+}
+
+#servicos figure img{
+  display: block;
+  float: left;
+  border-top:;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  border: solid 2px #FFFFFF;
+  padding: 0px;
+
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-bottom: -100px;
+}
+
+#servicos h3, h4{
+ text-align: center;
+ padding-top: 20px;
+ font-weight: 40px;
+ color: rgb(254, 134, 33);
+}
+
+h3[title="principal"] {
+  color: rgb(226, 27, 85) !important;
+}
+
+#servicos h4{
+  border-bottom: solid white 2px;
+  padding-bottom: 15px;
+  margin-left: 200px;
+  width: 1000px;
+}
+
+div#legendas h3 {
+  display: inline;
+
+  padding-left: 100px;
+  padding-right: 75px;
+
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+div#websites  {
+  display: inline-block;
+  text-align: center;
+  padding-left: 120px;
+  margin: 100px 50px 50px 0px;
+
+}
+
+div#templates {
+  display: inline-block;
+  padding-left: 30px;
+  text-align: center;
+  margin: 100px 50px 50px 0px;
+}
+
+div#temas {
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 230px;
+  margin-top: 50px;
+  margin-left: -200px;
+}
+/*só para colocar cor nos textos*/
+
+
+/*================================================*\
+/*alteração no meustrabalhos */
+#meustrabalhos {
+ background-color: rgb(253, 173, 26);
+ padding: 50px;
+}
+
+#meustrabalhos h2{
+  padding: 5px;
+  color: red;
+}
+
+#meustrabalhos p{
+  border-bottom: solid 2px white;
+  padding-bottom: 20px;
+  margin: 50px;
+}
+
+#meustrabalhos ul {
+  list-style: none;
+}
+
+#meustrabalhos li{
+  display: inline-block;
+  border: solid 1px rgb(127, 127, 127);
+  margin: 10px;
+  padding: 1px 15px 1px 15px;
+}
+
+#meustrabalhos li:hover{
+  background: rgb(127, 127, 127);
+}
+
+#meustrabalhos img {
+ margin-right: 15px;
+}
+
+/*================================================*\
+/*alteração no "quem" */
+#quem {
+ background-color: black;
+ color: white;
+ height: 1000px;
+ width: 1300px;
+ padding: 20px;
+}
+
+#quem h3, h1 {
+  text-align: center;
+}
+
+h1[title="quemsoueu"]{
+  color: rgb(247, 24, 88);
+}
+#quem h2 {
+  padding: 10px 10px 15px 5px;
+}
+
+h2[title="sobre"] {
+  text-align: center;
+  margin-right: 85px;
+}
+
+h4[title="normal"] {
+  border-bottom: solid 2px white;
+  padding-bottom: 20px;
+  color:rgb(114, 79, 48);
+}
+
+#quem img {
+  padding-left: 400px;
+  margin-top: 10px;
+}
+
+#quem div {
+  margin: 0px 20px 0px 25px;
+  padding: 2px;
+}
+
+#j {
+  background-color: purple;
+  height: 20px;
+  width: 210px;
+  margin: 2px;
+  border: solid 2px white;
+  padding: 2px;
+  border-right-width: 40px;
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+#h {
+  background-color: purple;
+  height: 20px;
+  width: 240px;
+  margin: 2px;
+  border: solid 2px white;
+  padding: 2px;
+  border-right-width: 10px;
+  border-right-style: solid;
+  border-right-color: white;
+  }
+
+#jQ {
+  background-color: purple;
+  height: 20px;
+  width: 200px;
+  margin: 2px;
+  border: solid 2px white;
+  padding: 2px;
+  border-right-width: 50px;
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+#W {
+  background-color: purple;
+  height: 20px;
+  width: 200px;
+  margin: 2px;
+  border: solid 2px white;
+  padding: 2px;
+  border-right-width: 50px;
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+
+/*================================================*/
+/*alteração no contato */
+#contato {
+  background-color: rgb(253,173,26);
+  height: 500px;
+  width: 1330px;
+  margin: -2px;
+  padding: 8px;
+}
+#contato h4, p{
+  text-align: center;
+}
+
+#contato h4{
+  border-bottom: solid 1px rgb(73, 23, 0);
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+#contato h2 {
+  margin-left: -10px;
+  text-align: center;
+  color: rgb(241, 24, 76)
+}
+
+p[title="email"] {
+  border: solid 1px #FFFFFF;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top: 70px;
+  margin-right:450px;
+  margin-left:450px;
+}
+
+p[title="numero"]{
+  color: white;
+}
+
+p[title="midias"]{
+ color: black;
+ border-bottom: solid 1px rgb(73, 23, 0);
+ width: 1000px;
+ margin-top: 100px;
+ margin-left: 190px;
+}
+
+#contato figure {
+  display: inline-block;
+  margin: 70px 0px 0px 600px;
+}
+
+#contato img{
+  height: 50px;
+  width: 50px;
+  border-radius: 150px;
+}
+
+/*================================================*/
+#rodape{
+  background-color: rgb(25,26,28);
+  height: 50px;
+  width: 1345px;
+  text-align: center;
+  color: white;
+}
+
+p[title="negrito"] {
+  margin: -5px;
+  padding-top: 25px;
+}
