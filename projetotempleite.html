@@ -1,41 +1,74 @@
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
   </head>
   <body>
-    <img src="..\images\icon.ico" height="100" width="100" alt="logo">
-  <section="menu">
+
+  <header>
+  <figure id="logo">
+   
+  </figure>
+   <nav id="menu">
     <ul>
       <li>Home</li>
       <li>Serviços</li>
       <li>Portfolio</li>
-      <li>sobre mim</li>
-      <li>contatos</li>
+      <li>Sobre mim</li>
+      <li>Contatos</li>
     </ul>
-  </section>
+  </nav>
+  </header>
 
-  <section="bemvindo">
-    <img src="..\images\slider.png" height="1000" width="1000">
-    <h1>Bem vind@</h1>
-    <h2>blablablablablabla<h2>
-    <h4>
-      Lorem Ipsum é simplesmente uma simulação
-      de texto da indústria tipográfica e de impressos,
-      e vem sendo utilizado desde o século XVI.
+  <section id="bemvindo">
+   <figure>
+    <img src="images\slider01.png">
+   </figure>
+    <h2>Bem vind@</h2>
+    <h3>blablablablablabla<h3>
+    <h4>Em linguística, a noção de texto é ampla e ainda aberta a uma definição
+        mais precisa. <br>Grosso modo, pode ser entendido como manifestação linguística
+        das ideias de um autor.
     </h4>
   </section>
 
-  <section id ="servicos">
-    <h3 align="center">Serviços </h3>
-    <h4 align="center">Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
-    <img src="..\images\Service1.png" alt="websites">
-    <img src="..\images\Service2.png" alt="templates">
-    <img src="..\images\Service3.png" alt="temas wordpress">
+  <section id="servicos">
+    <h3 title="principal">Serviços</h3>
+    <h4>Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
+    <figure>
+      <img src="images\Service1.png" alt="websites">
+    </figure>
+
+    <figure>
+      <img src="images\Service2.png" alt="templates">
+    </figure>
+
+    <figure>
+      <img src="images\Service3.png" alt="temas wordpress">
+    </figure>
+
+    <div id="websites">
+      <h3>Websites</h3>
+      <p>Curabitaur bidendun ligula at weilt lacriria pretiun. <br>Pellentesque loren</p>
+    </div>
+
+    <div id="templates">
+      <h3>Templates</h3>
+      <p>Suspendisse scelerisque iaculis euismod nulla facilisi. <br>Duis turpis</p>
+    </div>
+
+    <div id="temas">
+      <h3>Temas WordPress</h3>
+      <p>Nulla id ultrices odio. Nulla imperdiet felis diam</p>
+    </div>
   </section>
 
+
   <section id="meustrabalhos">
-    <h2 align="center">Meus Trabalhos</h2>
-    <h4 align="center"> Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
+    <h2 text-align="center">Meus Trabalhos</h2>
+    <p text-align="center"> Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</p>
     <ul>
       <li>Tudo</li>
       <li>Websites</li>
@@ -43,32 +76,51 @@
       <li>Templates</li>
       <li>Temas</li>
     </ul>
-      <img src="..\images\Portfolio01.png" width="350" light="350">
-      <img src="..\images\Portfolio02.png" width="350" light="350">
-      <img src="..\images\Portfolio03.png" width="350" light="350" >
+    <figure>
+      <img src="images\Portfolio01.png" width="350" light="350">
+      <img src="images\Portfolio02.png" width="350" light="350">
+      <img src="images\Portfolio03.png" width="350" light="350">
+    </figure>
   </section>
 
   <section id="quem">
-    <h3 align="center">Quem sou eu</h3>
-    <h4 align="center">Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
-    <img src="..\images\photo.png">
-    <h2 align="center"> Lorena </h2>
-    <h4 align="center">
-        Lorem Ipsum é simplesmente uma simulação
-        de texto da indústria tipográfica e de impressos,
-        e vem sendo utilizado desde o século XVI. Duis mollis placerat quam, eget laorect tellus eu.
+    <h1 title="quemsoueu">Quem sou eu</h1>
+    <h4 title="normal">Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
+
+    <figure>
+      <img src="images\photo.png">
+    </figure>
+    <h1>Lorena</h1>
+
+    <h2 title="sobre">Sobre mim</h2>
+    <h4>
+        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+        e vem sendo utilizado desde o século XVI. <br>Duis mollis placerat quam, eget laorect tellus eu.
         Quaisquer dapibus in purus in dignissim.
-   </h4>
-   <h2> Habilidades </h2>
+    </h4>
+    <h2>Habilidades </h2>
+
+      <div><p id="j">JavaScript</p></div>
+      <div><p id="h">HTML & CSS</p></div>
+      <div><p id="jQ">jQuery</p></div>
+      <div><p id="W">WordPress</p></div>
   </section>
 
   <section id="contato">
-    <h2 align="center">Contato</h2>
-    <h4 align="center">Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
-    <p>meuemail.com</p>
-    <p>55 21 9999-9999</p>
-    <p>midias</p>
+    <h2>Contato</h2>
+    <h4>Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
+    <p title="email">meuemail.com</p>
+    <p title="numero">55 21 9999-9999</p>
+    <p title="midias">Midias</p>
+    <figure class="midiasocial">
+      <img src="images/insta.png">
+      <img src="images/twiter.jpg">
+      <img src="images/facebook.png">
+    </figure>
   </section>
-  <footage> <strong>Women + Tech </strong></footage>
+
+  <footer id="rodape">
+    <p title="negrito">Women + Tech </p>
+  </footer>
   </body>
 </html>
