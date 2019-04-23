@@ -3,67 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>Meu Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">    
   </head>
+  
   <body>
 
-  <header>
-  <figure id="logo">
-   
-  </figure>
-   <nav id="menu">
-    <ul>
-      <li>Home</li>
-      <li>Serviços</li>
-      <li>Portfolio</li>
-      <li>Sobre mim</li>
-      <li>Contatos</li>
-    </ul>
-  </nav>
+  <header class="wrap-project">
+    <figure class="wrap-logo">
+      <img class="logo" src="images/logo.png"/>
+    </figure>
+
+    <nav class="wrap-menu">
+      <ul class="menu">
+        <li>Home</li>
+        <li>Serviços</li>
+        <li>Portfolio</li>
+        <li>Sobre mim</li>
+        <li>Contatos</li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="bemvindo">
-   <figure>
-    <img src="images\slider01.png">
+  <section class="welcome">
+   <figure class="welcome-img">
+    <img class="slide" src="images\slider01.png">
    </figure>
-    <h2>Bem vind@</h2>
-    <h3>blablablablablabla<h3>
-    <h4>Em linguística, a noção de texto é ampla e ainda aberta a uma definição
+
+   <div class="wrap -information">
+    <h1 class="title">Bem vind@</h1>
+    <h3 class="introdution">blablablablablabla</h3>
+    <h4 class="description">Em linguística, a noção de texto é ampla e ainda aberta a uma definição
         mais precisa. <br>Grosso modo, pode ser entendido como manifestação linguística
         das ideias de um autor.
     </h4>
   </section>
 
-  <section id="servicos">
-    <h3 title="principal">Serviços</h3>
+  <section class="service">
+    <h3>Serviços</h3>
     <h4>Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
-    <figure>
-      <img src="images\Service1.png" alt="websites">
+    
+  
+    <figure class="service-img">
+      <img class="icon" src="images\Service1.png" alt="websites">
     </figure>
-
-    <figure>
-      <img src="images\Service2.png" alt="templates">
-    </figure>
-
-    <figure>
-      <img src="images\Service3.png" alt="temas wordpress">
-    </figure>
-
-    <div id="websites">
+    <div class="subtitle">
       <h3>Websites</h3>
       <p>Curabitaur bidendun ligula at weilt lacriria pretiun. <br>Pellentesque loren</p>
     </div>
 
-    <div id="templates">
+    <figure class="service-img">
+      <img class="icon" src="images\Service2.png" alt="templates">
+    </figure>
+    <div class="subtitle">
       <h3>Templates</h3>
       <p>Suspendisse scelerisque iaculis euismod nulla facilisi. <br>Duis turpis</p>
     </div>
 
-    <div id="temas">
+    <figure class="service-img">
+      <img class="icon" src="images\Service3.png" alt="temas wordpress">
+    </figure>
+    <div class="subtitle">
       <h3>Temas WordPress</h3>
       <p>Nulla id ultrices odio. Nulla imperdiet felis diam</p>
-    </div>
-  </section>
+    </div>   
+ </section>
 
 
   <section id="meustrabalhos">
@@ -111,16 +115,23 @@
     <h4>Duis mollis placerat quam, eget laorect tellus eu. Quaisquer dapibus in purus in dignissim.</h4>
     <p title="email">meuemail.com</p>
     <p title="numero">55 21 9999-9999</p>
-    <p title="midias">Midias</p>
+    <p class="midias">Midias</p>
+    
     <figure class="midiasocial">
       <img src="images/insta.png">
+    </figure> 
+
+    <figure class="midiasocial">
       <img src="images/twiter.jpg">
+    </figure>
+
+    <figure class="midiasocial">
       <img src="images/facebook.png">
     </figure>
   </section>
 
-  <footer id="rodape">
-    <p title="negrito">Women + Tech </p>
+  <footer class="end">
+    <p> <b>Women + Tech</b> </p>
   </footer>
   </body>
 </html>
